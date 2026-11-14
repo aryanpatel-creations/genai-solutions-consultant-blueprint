@@ -1,0 +1,31 @@
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Python bytecode & test caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Large Raw Datasets (> 100 MB, excluded per GitHub limits)
+# Raw CFPB 5.8 GB database and intermediate filtered subsets
+01_A1_diagnostic/data/raw/
+01_A1_diagnostic/bank_complaints_24m.csv
+01_A1_diagnostic/complaints_clean.csv
+*.zip
+
+# Temporary / Scratch scripts & Prompt Guides
+check_archives.py
+Category_A_Techno_Consultant_Build_Guide_v2.pdf
+
+# System & IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
