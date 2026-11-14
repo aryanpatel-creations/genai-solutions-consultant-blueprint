@@ -1,0 +1,29 @@
+WBS,Task_Name,Duration_Weeks,Start_Date,Finish_Date,Predecessors,Resource_Names,Notes
+1,Phase 0: Foundations Lean Fixes & Quick Win,8,2026-01-05,2026-02-27,,All Teams,Pre-GenAI foundations and Lean Six Sigma fixes
+1.1,Execute 6 Non-AI Lean Six Sigma Process Fixes,4,2026-01-05,2026-01-30,,Operations Head;Team Leads,Discretionary waiver <=Rs 1500; 3-level taxonomy; auto-ack
+1.2,Phase 0 Quick Win: Deploy Client Feedback Sentiment Flow (#3),4,2026-01-12,2026-02-06,1.1,AI Product Owner;Power Platform Dev,Prebuilt Power Automate + AI Builder sentiment routing
+1.3,Build Core Data Pipelines & DPDP Client-Side PII Masking Gateway,4,2026-01-19,2026-02-13,1.1,IT Security Engineer;CISO,Tokenize Aadhaar PAN Card# inside bank boundary
+1.4,Formulate Golden Evaluation Test Sets (200 Triage 100 Policy),4,2026-01-26,2026-02-20,1.3,AI Product Owner;Compliance Officer,Ground truth labeled benchmarks
+1.5,Enterprise Model Registration on Bank AI Inventory Register,2,2026-02-09,2026-02-20,1.4,Chief Risk Officer;Compliance,RBI FREE-AI Tier-2 registration
+1.6,MILESTONE: Stage Gate 1 - Pilot Go/No-Go Decision,0,2026-02-27,2026-02-27,"1.1,1.2,1.3,1.4,1.5",Sponsor;PNO;CRO,Gate 1 review: All Phase 0 criteria must pass
+2,Phase 1: Agent Copilot Pilot in Cards & Accounts,12,2026-03-02,2026-05-22,1.6,Pilot Cohort (60 Agents),Internal copilot testing in Cards & Savings teams
+2.1,Frontline Change Management & Champion Training (Cards & Savings),2,2026-03-02,2026-03-13,1.6,Change Lead;Trainers,1 champion per team; 2-hour onboarding workshops
+2.2,Deploy AI Triage & Queue Routing Copilot (Claude Haiku 5.5),5,2026-03-09,2026-04-10,2.1,IT Engineer;AI Product Owner,Model routing API; Haiku 5.5 at $0.0001/call
+2.3,Deploy AI Policy Knowledge Q&A Assistant (Sonnet 5.5 + RAG),7,2026-03-23,2026-05-08,2.2,IT Engineer;Enterprise Arch,RAG vector search; prompt caching ($0.01702/call)
+2.4,Instrument Telemetry & Deploy Project A3 AI Value Dashboard,8,2026-03-30,2026-05-22,2.2,AI Product Owner;BI Lead,Live tracking of 16 tested KPIs across 4 tabs
+2.5,Weekly 15-Minute Frontline Feedback Huddles & Prompt Tuning,8,2026-03-30,2026-05-22,2.3,Team Leads;Change Lead,Iterative prompt refinement based on agent feedback
+2.6,Re-run Financial Business Case with Real Pilot Event Telemetry,2,2026-05-11,2026-05-22,2.4,CFO / Finance;AI Product Owner,Verify 18-month payback and escalation reduction
+2.7,MILESTONE: Stage Gate 2 - Expansion & Drafting Go/No-Go Decision,0,2026-05-22,2026-05-22,"2.2,2.3,2.4,2.5,2.6",Sponsor;PNO;CRO;CFO,Gate 2 review: Acceptance >=80%; Override <=15%
+3,Phase 2: Enterprise Rollout & Response Drafting Across All 4 Teams,14,2026-05-25,2026-08-28,2.7,Enterprise (120 Agents),Scale to Digital Banking & Branch Escalations
+3.1,Onboard Digital Banking & Branch Teams (120 Agents Total Live),3,2026-05-25,2026-06-12,2.7,Change Lead;Trainers,Full 120-agent pilot cohort onboarding
+3.2,Deploy AI Response Drafting Copilot (Claude Sonnet 5.5),6,2026-06-01,2026-07-10,3.1,IT Engineer;AI Product Owner,Pre-drafted letters; 6.0 min saved per case
+3.3,Implement Mandatory Outbound Approval HITL Review Gate,4,2026-06-08,2026-07-03,3.2,IT Security;Compliance,Cryptographic agent session token check on dispatch
+3.4,Deploy Day-25 Statutory Amber Alert & Case History Summarizer,4,2026-06-22,2026-07-17,3.2,IT Engineer;PNO,Alerts Nodal queue; prevents Ombudsman escalation
+3.5,Model Risk Management (MRM) Monthly Benchmarking & Audit,10,2026-06-22,2026-08-28,3.3,Compliance Officer;AI Product Owner,Monthly 100-question re-test; override monitoring
+3.6,Labor Capacity Cash Realization Audit with Finance,3,2026-08-10,2026-08-28,3.5,CFO / Finance;Operations Head,Audit natural attrition and overtime reduction
+3.7,MILESTONE: Stage Gate 3 - Enterprise Scale & Maturity Go/No-Go Decision,0,2026-08-28,2026-08-28,"3.2,3.3,3.4,3.5,3.6",Executive Committee;Sponsor;CRO,Gate 3 review: Payback <=24m; MRM sign-off
+4,Phase 3: Scale Optimization & Narrow Agentic Exploration,16,2026-08-31,2026-12-18,3.7,Enterprise Operations,Optimization & Category B architecture
+4.1,Evaluate Classical ML Migration for Triage (scikit-learn on 6m data),6,2026-08-31,2026-10-09,3.7,Data Scientist;AI Product Owner,Replace Haiku with local ML classifier to cut cost
+4.2,Annual DPDP Act 2023 & RBI FREE-AI Regulatory Recertification,6,2026-09-28,2026-11-06,3.7,Chief Compliance Officer;DPO,Annual statutory audit and risk review
+4.3,Architecture Design for Narrow Agentic Steps (Category B Prototype),8,2026-10-12,2026-12-04,4.1,Enterprise Architect;Lead Engineer,Autonomous case document retrieval (Category B kickoff)
+4.4,Executive Value Realization & 12-Month Transformation Sign-Off,2,2026-12-07,2026-12-18,"4.2,4.3",CEO;CFO;Sponsor,Final transformation review and Year 2 budgeting
